@@ -1,7 +1,7 @@
 import openai
 openai.api_type = "azure"
 openai.api_base = "YOUR_API_BASE"
-openai.api_version = "2023-07-01-preview"
+openai.api_version = "YOUR_API_VERSION"
 openai.api_key = "YOUR_API_KEY"
 
 import asyncio
