@@ -8,7 +8,7 @@ This is the code for our paper [RAM-EHR: Retrieval Augmentation Meets Clinical P
 In order to facilitate the reproducibility, we provide a small synthetic subset in data for MIMIC-III dataset in `mimic` folder (`hyperedges-mimic-text-{train/valid/test}-example.jsonl`). We include them in this repo only to show the format of the two datasts we used. Thus, their experimental results should NOT reflect the performance we report in the paper.
 
 ## Knowledge Sources
-We provide some of the publicly available sources in `mesh.txt` as well as the code for querying drugbank and pubmed database in `query_drugbank.py` and `query_pubmed.py`, respectively. The processed information for each medical code can be found in the `mimic` and `cradle` folder. The drugbank information can be accessed at [This Link]([this link](https://go.drugbank.com/releases/latest)). 
+We provide some of the publicly available sources in `mesh.txt` as well as the code for querying drugbank and pubmed database in `query_drugbank.py` and `query_pubmed.py`, respectively. The processed information for each medical code can be found in the `mimic` and `cradle` folder. The drugbank information can be accessed at [this link](https://go.drugbank.com/releases/latest). 
 
 ## Generating Knowledge Summaries using GPT-3.5
 Please refer to `prompt_gpt_def.py` for details.
