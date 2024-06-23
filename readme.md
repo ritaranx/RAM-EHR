@@ -5,7 +5,7 @@ This is the code for our paper [RAM-EHR: Retrieval Augmentation Meets Clinical P
 
 ## Data
 **[IMPORTANT, PLEASE READ!]**
-In order to facilitate the reproducibility, we provide a small synthetic subset in data for MIMIC-III dataset in `mimic` folder (hyperedges-mimic-text-{train/valid/test}-example.jsonl). We include them in this repo only to show the format of the two datasts we used. Thus, their experimental results should NOT reflect the performance we report in the paper.
+In order to facilitate the reproducibility, we provide a small synthetic subset in data for MIMIC-III dataset in `mimic` folder (`hyperedges-mimic-text-{train/valid/test}-example.jsonl`). We include them in this repo only to show the format of the two datasts we used. Thus, their experimental results should NOT reflect the performance we report in the paper.
 
 ## Knowledge Sources
 We provide some of the publicly available sources in `mesh.txt` as well as the code for querying drugbank and pubmed database in `query_drugbank.py` and `query_pubmed.py`, respectively. The processed information for each medical code can be found in the `mimic` and `cradle` folder.
