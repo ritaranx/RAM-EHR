@@ -38,7 +38,7 @@ async def dispatch_openai_requests(
     """
     async_responses = [ 
             openai.ChatCompletion.acreate(
-            engine="chaolab-gpt35-useast2",
+            engine="your_engine",
             messages=x,
             temperature=temperature,
             max_tokens=max_tokens,
